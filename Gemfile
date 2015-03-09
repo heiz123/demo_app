@@ -42,6 +42,8 @@ gem 'bootstrap-sass'
 
 gem 'bcrypt'
 
+gem 'factory_girl_rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '~> 0.4.0', group: :doc
