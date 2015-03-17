@@ -19,6 +19,8 @@ group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'test-unit'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
 end
 
 # Use SCSS for stylesheets
@@ -44,6 +46,11 @@ gem 'bcrypt'
 
 gem 'factory_girl_rails'
 
+gem 'faker'
+
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', '~> 0.4.0', group: :doc
@@ -67,6 +74,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
 end
 
 group :production do
